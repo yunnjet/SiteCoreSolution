@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteCoreSolution", "SiteCoreSolution\SiteCoreSolution.csproj", "{093520F3-2C83-4C71-930F-3BF0E145AB65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiteCoreWebSite", "SiteCoreWebSite\SiteCoreWebSite.csproj", "{4AC15FEA-294F-427A-98FD-C291F3AE01E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{093520F3-2C83-4C71-930F-3BF0E145AB65} = {093520F3-2C83-4C71-930F-3BF0E145AB65}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{093520F3-2C83-4C71-930F-3BF0E145AB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093520F3-2C83-4C71-930F-3BF0E145AB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093520F3-2C83-4C71-930F-3BF0E145AB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093520F3-2C83-4C71-930F-3BF0E145AB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC15FEA-294F-427A-98FD-C291F3AE01E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC15FEA-294F-427A-98FD-C291F3AE01E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC15FEA-294F-427A-98FD-C291F3AE01E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC15FEA-294F-427A-98FD-C291F3AE01E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
